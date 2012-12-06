@@ -40,4 +40,4 @@ function get_fn_array(){
 }
 
 var funcs = get_fn_array();
-async.series(funcs.splice(1, 2));
+async.series(funcs);
